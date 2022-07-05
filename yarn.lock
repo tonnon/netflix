@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@csstools/selector-specificity@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.1.tgz#b6b8d81780b9a9f6459f4bfe9226ac6aefaefe87"
+  integrity sha512-aG20vknL4/YjQF9BSV7ts4EWm/yrjagAN7OWBNmlbEOUiu0llj4OGrFoOKK3g2vey4/p2omKCoHrWtPxSwV3HA==
+
+"@heroicons/react@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
+  integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
+
 "@next/env@12.2.0":
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.2.0.tgz#17ce2d9f5532b677829840037e06f208b7eed66b"
@@ -509,6 +519,14 @@ postcss-nested@5.0.6:
   dependencies:
     postcss-selector-parser "^6.0.6"
 
+postcss-nesting@^10.1.10:
+  version "10.1.10"
+  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-10.1.10.tgz#9c396df3d8232cbedfa95baaac6b765b8fd2a817"
+  integrity sha512-lqd7LXCq0gWc0wKXtoKDru5wEUNjm3OryLVNRZ8OnW8km6fSNUuFrjEhU3nklxXE2jvd4qrox566acgh+xQt8w==
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
+    postcss-selector-parser "^6.0.10"
+
 postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.6:
   version "6.0.10"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
@@ -557,6 +575,11 @@ react-dom@18.1.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
+
+react-icons@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.4.0.tgz#a13a8a20c254854e1ec9aecef28a95cdf24ef703"
+  integrity sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg==
 
 react@18.1.0:
   version "18.1.0"
