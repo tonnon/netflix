@@ -5,7 +5,7 @@ import { BellIcon, SearchIcon } from '@heroicons/react/solid'
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false)
     useEffect(() => {
-        const handleScroll = () => {
+         const handleScroll = () => {
             if (window.scrollY > 0) {
                 setIsScrolled(true)
             } else {
@@ -13,9 +13,6 @@ export default function Header() {
             }
         }
         window.addEventListener('scroll', handleScroll)
-        return () => {
-            window.addEventListener('scroll', handleScroll)
-        }
     }, [])
     return (
         <header className={`${isScrolled && 'bg-[#141414]'}`}>
