@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { createContext, useEffect, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import {
     createUserWithEmailAndPassword,
     onAuthStateChanged,
@@ -97,3 +97,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
                 {!initialLoading && children}
             </AuthContext.Provider>
 }
+
+export default function useAuth() {
+    return useContext(AuthContext)
+  }
