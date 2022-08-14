@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { BellIcon, SearchIcon } from '@heroicons/react/solid'
 
@@ -21,7 +22,6 @@ function Header() {
                     src="https://rb.gy/ulxxee"
                     width={100}
                     height={100}
-                    alt="netflix logo"
                     className="cursor-pointer object-contain"
                 />
                 <ul className="hidden space-x-4 md:flex">
